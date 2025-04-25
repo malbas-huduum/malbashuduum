@@ -1,36 +1,14 @@
 body {
-    background-color: #f6f3e8; /* Slightly deeper cream like your logo */
-    color: #000; /* Black font */
-    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; /* Cream background */
+    color: black; /* Black font */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #000; /* Black header */
-    color: #fff; /* White text in header */
-    padding: 20px;
+.header {
     text-align: center;
-    font-size: 2em;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 50px 0;
 }
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-a {
-    color: #000; /* Black links */
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #000; /* Black footer */
-    color: #fff; /* White text in footer */
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
