@@ -1,14 +1,103 @@
 body {
-    background-color: #fdf6e3; /* Cream background */
-    color: black; /* Black font */
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcf9ec;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #007bff;
 }
 
 .header {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    padding: 50px 0;
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe57;
+}
+
+.catalogue {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.catalogue h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
