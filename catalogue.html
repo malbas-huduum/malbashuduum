@@ -1,41 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogue - Malbas Huduum™</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalogue - Malbas Huduum™</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav {
+      margin: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2e00ff;
+    }
+    .catalogue {
+      padding: 20px;
+      text-align: center;
+    }
+    .product {
+      margin-bottom: 40px;
+    }
+    img {
+      width: 300px;
+      height: auto;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+    .whatsapp-link {
+      display: inline-block;
+      margin-top: 5px;
+      color: green;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="catalogue.html">Catalogue</a>
-        </nav>
-    </header>
 
-    <h1>Our Catalogue</h1>
+<header>
+  <h1>Our Catalogue</h1>
+</header>
 
-    <div class="product-list">
-        <div class="product">
-            <img src="https://via.placeholder.com/300" alt="Suit 1">
-            <h2>Elegant Suit 1</h2>
-            <p>Price: ₹18,000</p>
-            <a href="https://wa.me/917498446521?text=I'm interested in Elegant Suit 1" class="btn">Order on WhatsApp</a>
-        </div>
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="catalogue.html">Catalogue</a>
+</nav>
 
-        <div class="product">
-            <img src="https://via.placeholder.com/300" alt="Suit 2">
-            <h2>Elegant Suit 2</h2>
-            <p>Price: ₹19,500</p>
-            <a href="https://wa.me/917498446521?text=I'm interested in Elegant Suit 2" class="btn">Order on WhatsApp</a>
-        </div>
-        
-        <!-- Add more suits like this -->
-    </div>
+<section class="catalogue">
 
-    <footer>
-        <p>© 2025 Malbas Huduum™. All rights reserved.</p>
-    </footer>
+  <div class="product">
+    <h2>Elegant Suit1</h2>
+    <img src="suit1.jpg" alt="Suit1">
+    <p class="price">Price: ₹18,000</p>
+    <a class="whatsapp-link" href="https://wa.me/917498446521?text=I want to order Elegant Suit 1">Order on WhatsApp</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2025 Malbas Huduum™. All rights reserved.
+</footer>
+
 </body>
 </html>
